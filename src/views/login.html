@@ -12,30 +12,60 @@
     <title>Frigerio Mercado Liebre</title>
 </head>
 <body class=" bgc-gris">
-    <header class=" bgc-amarillo w-100 fs-12 " >
+    <header class=" bgc-amarillo w-100 ta-center fs-12 " >
         <div class="flex fx-wr"> 
             <img class=" alg-i-start w-50 w-33" src="/images/logo-mercado-liebre.svg"> 
-            <div class="alg-i-start w-50 ">
-                <form class="search-box w-33"><input type="text">
+            <div class="alg-i-start w-50 w-33 ta-center ">
+                <form class="search-box "><input type="text">
                 <button type ></button><i class="fa-solid fa-magnifying-glass"></i></form>
 
             </div>
             <p class="alg-i-start w-50 flex-g ta-center w-33"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
         </div>
+        
+
+         
+        
+       
+
+        <nav class="flex fx-wr ">
+            <ul class="flex w-50  d-none-descripcion cont ta-left flex-g ls-none" >
+            <li class="alg-i-end"><a href ="www.google.com">Ofertas</a></li>
+            <li class="alg-i-end mx-left-10"><a href ="www.google.com">Tiendas Oficiales</a></li>
+            <li class="alg-i-end mx-left-10"><a href ="www.google.com">Vender</a></li>
+            <li class="alg-i-end  mx-left-10"><a href ="www.google.com">Ayuda</a></li>
+            </ul>
+            
+
+            <ul class="flex w-50 just-cont-end  d-none-descripcion cont ta-right ls-none">
+            <li class="alg-i-end"><a href ="/register">Creá tu cuenta </a><i class="fa-regular fa-id-card"></i></li>
+            <li class="alg-i-end mx-left-10"><a href ="/login">Ingresá </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+            <li class="alg-i-end mx-left-10"><a href ="www.google.com">Mis compras </a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+            <p class="w-50 ta-center flex-g d-none-hamb">           
+                 <i class="fas fa-bars imagen-burguer fs-18 .ta-center width-35 h-35 br-5 color-w bgc-celeste p-10 "  ></i>
+
+
+            </p>
+        
+            
+    </nav>
     </header>
     <main class="width-90  fs-16 ta-center" >
         <form action="/login.html" method="post">
             <div class="formato-formulario">   
                 <label for="nombre-usuario">Nombre de Usuario</label>
-                <input type="email" name="nombre-usuario" id="nombre-usuario" >      
+                <input type="email" name="nombre-usuario" id="nombre-usuario" >               
+                <span class="feedback"></span>   
             </div>
 
             <div class="formato-formulario">   
                 <label for="contraseña">Contraseña</label>
-                <input type="password" name="contraseña" id="contraseña">      
+                <input type="password" name="contraseña" id="contraseña">               
+                <span class="feedback"></span>   
             </div>
     
-         <button class="bgc-celeste color-w  wi-100" href ="/home" type="submit">Enviar</button> 
+         <button class="bg-color color-w  wi-100" href ="/home" type="submit">Enviar</button> 
         </form>
     </main>
 </body>
