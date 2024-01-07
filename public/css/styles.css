@@ -7,6 +7,7 @@
     width: 100%;
 
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -170,7 +171,7 @@ footer{
 }
 
 .cont{
-    padding:10px,15px;
+    padding:10px,405px;
 
 }
 .contenedor-inicial{
@@ -275,10 +276,12 @@ footer{
     .d-none-hamb{
         display:none;
     
-        }
-        .d-none-descripcion{
-            display:none;
-        
+    }
+    
+    .d-none-descripcion{
+        display:inline-flex;
+    
+
     }
     .d-none-descripcion :hover{
         display:block;
@@ -303,7 +306,7 @@ footer{
     
         }
     .d-none-descripcion{
-            display:none;
+            display:inline-flex;
         
     }
     .d-none-descripcion :hover{
