@@ -253,6 +253,10 @@ footer{
 
 
 
+.none-descrip:hover {    
+    display:none ;
+}
+
 
 @media (max-width:480px){
     .d-none-descripcion{
@@ -279,7 +283,7 @@ footer{
     }
     
     .d-none-descripcion{
-        display:inline-flex;
+        display:none;
     
 
     }
